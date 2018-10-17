@@ -429,7 +429,8 @@ func Signup(c *gin.Context) {
 	newUser.Email = userData.Email
 	newUser.Pass = newUser.EncryptPassword(userData.Password, newUser.Salt())
 	newUser.Role = model.UserRoleNormal
-	newUser.Status = model.UserStatusInActive
+	// newUser.Status = model.UserStatusInActive
+	newUser.Status = model.UserStatusActived
 	newUser.Sex = model.UserSexMale
 	newUser.AvatarURL = "/images/avatar/" + strconv.Itoa(rand.Intn(2)) + ".png"
 
