@@ -2,8 +2,8 @@ package cron
 
 import (
 	"github.com/robfig/cron"
-	"github.com/shen100/golang123/config"
-	"github.com/shen100/golang123/model"
+	"github.com/leeveles/bbs/config"
+	"github.com/leeveles/bbs/model"
 )
 
 var cronMap = map[string]func(){}

@@ -12,9 +12,9 @@ import (
 	"github.com/garyburd/redigo/redis"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
-	"github.com/shen100/golang123/controller/common"
-	"github.com/shen100/golang123/model"
-	"github.com/shen100/golang123/utils"
+	"github.com/leeveles/bbs/controller/common"
+	"github.com/leeveles/bbs/model"
+	"github.com/leeveles/bbs/utils"
 )
 
 func queryList(c *gin.Context, isBackend bool) {

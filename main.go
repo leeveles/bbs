@@ -7,11 +7,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
-	"github.com/shen100/golang123/config"
-	"github.com/shen100/golang123/cron"
-	"github.com/shen100/golang123/middleware"
-	"github.com/shen100/golang123/model"
-	"github.com/shen100/golang123/router"
+	"github.com/leeveles/bbs/config"
+	"github.com/leeveles/bbs/cron"
+	"github.com/leeveles/bbs/middleware"
+	"github.com/leeveles/bbs/model"
+	"github.com/leeveles/bbs/router"
 )
 
 func main() {

@@ -6,9 +6,9 @@ import (
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
-	"github.com/shen100/golang123/config"
-	"github.com/shen100/golang123/controller/common"
-	"github.com/shen100/golang123/model"
+	"github.com/leeveles/bbs/config"
+	"github.com/leeveles/bbs/controller/common"
+	"github.com/leeveles/bbs/model"
 )
 
 func getUser(c *gin.Context) (model.User, error) {

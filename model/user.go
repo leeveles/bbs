@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/garyburd/redigo/redis"
-	"github.com/shen100/golang123/config"
+	"github.com/leeveles/bbs/config"
 )
 
 // User 用户

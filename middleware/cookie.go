@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/gin-gonic/gin"
-	"github.com/shen100/golang123/config"
-	"github.com/shen100/golang123/model"
+	"github.com/leeveles/bbs/config"
+	"github.com/leeveles/bbs/model"
 )
 
 // RefreshTokenCookie 刷新过期时间
